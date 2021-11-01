@@ -1,0 +1,14 @@
+.industry {
+  padding: 112px 0;
+  background-color: #8ec2f2;
+
+  &__text {
+    margin-bottom: 80px !important;
+  }
+
+  &__img {
+    position: absolute;
+    top: -10px;
+    left: -85px;
+  }
+}
