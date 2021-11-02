@@ -84,3 +84,15 @@
       }
    }
 }
+
+@include breakpoint-down($max-xs) {
+   .header__navbar-nav {
+     background-color: #485258 !important;
+   }
+}
+
+@include breakpoint-down($max-sm) {
+   .header__navbar-nav {
+      background-color: transparent !important;
+   }
+}
